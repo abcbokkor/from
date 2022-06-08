@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+
+        <!--label and input,legend and fieldset tag-->
+
+        <fieldset>
+            <legend>Personal Bio</legend>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+
+            <label for="faname">Father Name :</label>
+            <input type="text" id="faname" name="faname">
+            <br><br>
+
+            <label for="mname">Mother Name :</label>
+            <input type="text" id="mname" name="mname">
+            <br><br>
+
+            <label for="pnumber">Phone Number:</label>
+            <input type="number" id="pnumber" name="pnumber">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+<p> Select You Gender :</p>
+            <input type="radio" id="Gender1" name="Famle" value="Famle">
+            <label for="Gender1">Famle</label>
+            <input type="radio" id="Gender2" name="Male" value="Male">
+            <label for="Gender2">Male</label>
+            
+<br>
+            <label for="picture">Choose a profile picture:</label>
+            <input type="file"
+            id="picture" name="picture"
+            accept="image/png, image/jpeg">
+
+<br><br>
+            <input type="image" src="download.jpg" alt="Submit" width="120">
+
+           </fieldset>
+
+
+
+        <!--label and select tag-->
+
+<!--Present address-->
+<section class="vag">
+
+    <div class="adress">
+        <p class="vil"> Present address :</p>
+        <br>
+        <label for="vil"> village Name :</label>
+        <input type="text" id="vil" name="vil">
+        <br>
+        <label for="post">Post Name:</label>
+        <input type="text" id="post" name="post">
+        <label for="postc">Post Code:</label>
+        <input type="number" id="postc" name="postc">
+        <br>
+        
+        <label for="Distice">Distice:</label>
+        <select name="Distice" id="Distice">
+        
+        <option value="Dinajpur">Dinajpur</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Thakurgoan">Thakurgoan</option>
+        <option value="Panchagor">Panchagor</option>
+        
+        </select>
+        
+        <label for="Upozila">Upozila:</label>
+        <select name="Upozila" id="Upozila">
+        
+        <option value="Birol">Birol</option>
+        <option value="Kaharol">Kaharol</option>
+        <option value="Birgonj">Birgonj</option>
+        <option value="khansama">khansama</option>
+        
+        
+        </select>
+
+        <br>
+        <label for="Religeon">Religeon:</label>
+        <input type="text" id="Religeon" name="Religeon">
+        <br>
+        <label for="Nationality">Nationality:</label>
+        <input type="text" id="Nationality" name="Nationality" value="Bagladeshi">
+        
+        </div>
+        
+
+    
+        <!--parmanent adress-->
+        
+        <div class="parmanet">
+            <p class="vil"> Parmanent address :</p>
+            <br>
+            <label for="vil"> village Name :</label>
+            <input type="text" id="vil" name="vil">
+            <br>
+            <label for="post">Post Name:</label>
+            <input type="text" id="post" name="post">
+            <label for="postc">Post Code:</label>
+            <input type="number" id="postc" name="postc">
+            <br>
+            
+            <label for="Distice">Distice:</label>
+            <select name="Distice" id="Distice">
+            
+            <option value="Dinajpur">Dinajpur</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Thakurgoan">Thakurgoan</option>
+            <option value="Panchagor">Panchagor</option>
+            
+            </select>
+            
+            <label for="Upozila">Upozila:</label>
+            <select name="Upozila" id="Upozila">
+            
+            <option value="Birol">Birol</option>
+            <option value="Kaharol">Kaharol</option>
+            <option value="Birgonj">Birgonj</option>
+            <option value="khansama">khansama</option>
+            
+        </select>
+        <br>
+        <label for="Religeon">Religeon:</label>
+        <input type="text" id="Religeon" name="Religeon">
+        <br>
+        <label for="Nationality">Nationality:</label>
+        <input type="text" id="Nationality" name="Nationality" value="Bgladeshi">
+            
+    </div>
+ </section>
+
+
+       <!--password and user name--> 
+
+       
+ <div class="log">       
+    <p> Log In</p>
+    <label for="username">Username:</label>
+        <br>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="pwd">Password:</label>
+    <br>
+    <input type="password" id="pwd" name="pwd">
+    <br><br>
+    
+    <input type="image" src="download.jpg" alt="Submit" width="120">
+    
+    </div>
+
+<!--chakbox-->
+
+<section class="block">
+    <div class="chakbox">
+        <p>Show chakbox</p>
+    
+    <input type="checkbox" id="achive" name="achive1" value="Bike">
+    <label for="achive"> I have a bike</label>
+    <br>
+    <input type="checkbox" id="achive2" name="achive2" value="Car">
+    <label for="vachive2"> I have a car</label>
+    <br>
+    <input type="checkbox" id="achive3" name="achive3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+    <br>
+    <input type="checkbox" id="achive4" name="achive4" value="GF">
+    <label for="vehicle4"> I have a GF</label>
+    <br>
+    <br>
+    </div>
+    
+    <!--Redio-->
+    
+    <div>
+        <p><b>Please select your favorite Web language:</b></p>
+    
+        <input type="radio" id="html" name="fav_lang_1" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" name="fav_lang_2" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" id="javascript" name="fav_lang_3" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        
+          <br>  
+        
+          <p><b>Please select your age:</b></p>
+          <input type="radio" id="age1" name="age" value="30">
+          <label for="age1">0 - 30</label>
+          <br>
+          <input type="radio" id="age2" name="age" value="60">
+          <label for="age2">31 - 60</label>
+          <br>  
+          <input type="radio" id="age3" name="age" value="100">
+          <label for="age3">61 - 100</label>
+          
+    
+    </div>
+      
+    <!--label and select tag and optagroup-->
+        
+    
+    <label for="color">chose your favarite color</label>
+    <select id="color" Name="color">
+    
+        <optgroup label="RGB Color">
+        <option value="Red">Red</option>
+        <option value="Green">Green</option>
+        <option value="blue">blue</option>
+    
+    </optgroup>
+    
+    <optgroup label="color chose">
+    
+        <option value="black">black</option>
+        <option value="white">white</option>
+    </optgroup>
+        </select>
+    <br>
+    
+    <div class="rd">
+        <input type="reset" value="Reset">
+       <input type="submit" value="Submit">
+    
+    </div>
+          
+</section>
+
+
+<!--text area-->
+<h2>Textarea</h2>
+<p>Write your life story</p>
+
+<textarea name="message" >
+
+</textarea>
+
+    </form>
+</body>
+</html>

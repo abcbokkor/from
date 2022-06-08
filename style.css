@@ -1,0 +1,77 @@
+fieldset{
+    background-color: #e0d2d2;
+   
+  }
+  
+  legend {
+    background-color: rgb(104, 57, 57);
+    color: rgb(229, 231, 228);
+    padding: 5px 10px;
+  }
+  
+input {
+    margin: 5px;
+  }
+  .vil{
+    color: #050404;
+      font-size: 25px;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  /*adress*/
+  .vag{
+    box-sizing: border-box;
+   
+}
+
+.adress{
+    background-color: rosybrown;
+    height: auto;
+     width: 41%;
+    padding: 10px;
+    margin: 10px 10px;
+    float: left;
+}
+
+.parmanet{
+    
+    background-color: rgb(226, 235, 224);
+    height: auto;
+    padding: 10px;
+    margin: 10px 10px;
+    width: 42%;
+    float: left;
+
+}
+
+/*Log IN from*/
+
+.log{
+display: inline-block;
+overflow: hidden;
+    background-color: #7e9985;
+    width: 15%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+  
+}
+.log p{
+    color: rgb(12, 14, 14);
+    font-size: 30;
+}
+
+/*chakbox*/
+
+.chakbox p{
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+
+}
+.block{
+  display: block;
+}
+
+
